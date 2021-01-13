@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color:skyblue;
+}
+/* stylying for container and buttons*/
+.container {
+    width: 800px;
+    max-width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    background-color: white;
+}
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+.btn {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.btn :hover {
+    background-color: skyblue;
+}
+.start-btn, .next-btn {
+    background-color: greenyellow;
+    font-weight: bold;
+
+}
